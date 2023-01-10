@@ -16,11 +16,11 @@ spl_autoload_register(function ($class_name) {
 });
 
     //*LOGIN USER ATUOMATICLY
-    if (isset($_COOKIE['user_id']) && !isset($_SESSION['user'])) { //* check if there is user_id cookie.
+    if (isset($_COOKIE['cookie']) && !isset($_SESSION['user'])) { //* check if there is user_id cookie.
     //*GET THE USER MODEL
     $user = new User();
     //*GET THE LOGEDIN USER BY ID
-    $logged_in_user = $user->get_by_id($_COOKIE['user_id']); 
+    $logged_in_user = $user->get_by_role($_COOKIE['cookie']); 
      //*SAVE THE LOGEDIN USER INFORMATION IN THE "USER" SESSION
     $_SESSION['user'] = array(
         'username' => $logged_in_user->username,
