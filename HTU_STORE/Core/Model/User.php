@@ -33,6 +33,46 @@ class User extends Model
         
     );
 
+     /**
+     * get_by_role
+     *get the role of the user 
+     * @param  mixed $username
+     * @return 
+     */
+    public function get_by_role(string $role)
+
+    {
+
+        $stmt = $this->connection->prepare("SELECT * FROM $this->table WHERE role=?");
+
+        $stmt->bind_param('s', $role);
+
+        $stmt->execute();
+
+        $result = $stmt->get_result();
+
+        if ($result) {
+
+            if ($result->num_rows > 0) {
+
+                return $result->fetch_object();
+
+            } else {
+
+                return false;
+
+            }
+
+        } else {
+
+            return false;
+
+        }
+
+        $stmt->close();
+       
+
+    }
 
     
     /**
