@@ -1,0 +1,52 @@
+﻿[28/11/22 00:21:25] info: Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/10.1.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=0&syncEnabled=false&teamPlan=&teamId=0
+[28/11/22 00:21:25] info: Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/10.1.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=0&syncEnabled=false&teamPlan=&teamId=0
+[28/11/22 00:21:25] info: Program: About to update to: C:\Users\mbori\AppData\Local\Postman
+[28/11/22 00:21:25] info: CheckForUpdateImpl: Using existing staging user ID: eb9218e7-18c8-5455-ac40-7c0b65a400d3
+[28/11/22 00:21:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/10.1.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=0&syncEnabled=false&teamPlan=&teamId=0
+[28/11/22 00:21:25] info: FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/10.1.2/stable/RELEASES?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=0&syncEnabled=false&teamPlan=&teamId=0&id=Postman&localVersion=10.1.2&arch=amd64
+[28/11/22 00:21:26] info: FileDownloader: Downloading file: https://dl.pstmn.io/download/10.5.2/Postman-win64-10.5.2-full.nupkg
+[28/11/22 00:25:01] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\mbori\AppData\Local\Postman\app-10.5.2
+[28/11/22 00:25:03] info: LogHost: Rigging execution stub for Postman_ExecutionStub.exe to C:\Users\mbori\AppData\Local\Postman\Postman.exe
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Squirrel Enabled Apps: []
+[28/11/22 00:25:05] warn: ApplyReleasesImpl: No apps are marked as Squirrel-aware! Going to run them all
+[28/11/22 00:25:05] info: ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\mbori\AppData\Local\Postman\
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\mbori\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: About to save shortcut: C:\Users\mbori\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\mbori\AppData\Local\Postman\Postman.exe, workingDir C:\Users\mbori\AppData\Local\Postman\app-10.5.2, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\mbori\OneDrive\Desktop\Postman.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: About to save shortcut: C:\Users\mbori\OneDrive\Desktop\Postman.lnk (target C:\Users\mbori\AppData\Local\Postman\Postman.exe, workingDir C:\Users\mbori\AppData\Local\Postman\app-10.5.2, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Examining Pin: Visual Studio Code.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Examining Pin: Visual Studio Code.lnk
+[28/11/22 00:25:05] info: ApplyReleasesImpl: Fixing up tray icons
+[28/11/22 00:25:05] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 10.5.2
+[28/11/22 00:25:05] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-10.1.2
+[28/11/22 00:25:05] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-10.5.2
+[28/11/22 00:25:06] info: Program: Finished Squirrel Updater
+[16/12/22 12:08:33] info: Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/10.5.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=19640744&syncEnabled=true&teamPlan=&teamId=0
+[16/12/22 12:08:33] info: Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/10.5.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=19640744&syncEnabled=true&teamPlan=&teamId=0
+[16/12/22 12:08:33] info: Program: About to update to: C:\Users\mbori\AppData\Local\Postman
+[16/12/22 12:08:33] info: CheckForUpdateImpl: Using existing staging user ID: eb9218e7-18c8-5455-ac40-7c0b65a400d3
+[16/12/22 12:08:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/10.5.2/stable?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=19640744&syncEnabled=true&teamPlan=&teamId=0
+[16/12/22 12:08:33] info: FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/10.5.2/stable/RELEASES?installationId=4c16dbe6-a0ad-4bb9-898c-0f3aea7cfd74&userId=19640744&syncEnabled=true&teamPlan=&teamId=0&id=Postman-win64&localVersion=10.5.2&arch=amd64
+[16/12/22 12:08:34] info: FileDownloader: Downloading file: https://dl.pstmn.io/download/10.6.0/Postman-win64-10.6.0-full.nupkg
+[16/12/22 12:10:35] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\mbori\AppData\Local\Postman\app-10.6.0
+[16/12/22 12:10:37] info: LogHost: Rigging execution stub for Postman_ExecutionStub.exe to C:\Users\mbori\AppData\Local\Postman\Postman.exe
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Squirrel Enabled Apps: []
+[16/12/22 12:10:40] warn: ApplyReleasesImpl: No apps are marked as Squirrel-aware! Going to run them all
+[16/12/22 12:10:40] info: ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\mbori\AppData\Local\Postman\
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\mbori\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: About to save shortcut: C:\Users\mbori\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\mbori\AppData\Local\Postman\Postman.exe, workingDir C:\Users\mbori\AppData\Local\Postman\app-10.6.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\mbori\OneDrive\Desktop\Postman.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: About to save shortcut: C:\Users\mbori\OneDrive\Desktop\Postman.lnk (target C:\Users\mbori\AppData\Local\Postman\Postman.exe, workingDir C:\Users\mbori\AppData\Local\Postman\app-10.6.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Examining Pin: Visual Studio Code.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Examining Pin: Visual Studio Code.lnk
+[16/12/22 12:10:40] info: ApplyReleasesImpl: Fixing up tray icons
+[16/12/22 12:10:40] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 10.6.0
+[16/12/22 12:10:40] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-10.5.2
+[16/12/22 12:10:40] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-10.6.0
+[16/12/22 12:10:40] info: Program: Finished Squirrel Updater
