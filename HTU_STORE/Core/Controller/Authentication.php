@@ -120,7 +120,7 @@ class Authentication extends Controller
                 \session_unset();
                
                  //* DESTROY THE COOKIE BY SETTING A PAST DATE
-                \setcookie('user_id', '', time() - 3600);
+                \setcookie('cookie', '', time() - 3600);
                 Helper::redirect('/');
         }       
         
