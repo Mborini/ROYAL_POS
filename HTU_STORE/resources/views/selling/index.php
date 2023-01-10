@@ -8,7 +8,7 @@
 
 
             <div>
-                <button class="btn btn-primary Flash" type="button" data-bs-toggle="offcanvas"
+                <button class="btn btn-primary Flash fw-bolder " type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">ALL SALLES</button>
 
 
