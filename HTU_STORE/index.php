@@ -19,7 +19,7 @@ spl_autoload_register(function ($class_name) {
     if (isset($_COOKIE['cookie']) && !isset($_SESSION['user'])) { //* check if there is user_id cookie.
     //*GET THE USER MODEL
     $user = new User();
-    //*GET THE LOGEDIN USER BY ID
+    //*GET THE LOGEDIN USER BY ROLE
     $logged_in_user = $user->get_by_role($_COOKIE['cookie']); 
      //*SAVE THE LOGEDIN USER INFORMATION IN THE "USER" SESSION
     $_SESSION['user'] = array(
