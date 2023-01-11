@@ -28,7 +28,8 @@ spl_autoload_register(function ($class_name) {
         'photo' => $logged_in_user->photo,
         'user_email' => $logged_in_user->email,
         'user_password' => $logged_in_user->password,
-        'is_admin_view' => true
+        'is_admin_view' => true,
+        'role'=>$logged_in_user->role
 );
 }
 
